@@ -10,84 +10,84 @@ export default function App() {
   <meta charSet="utf-8" />
   <title>Source Help</title>
   <link
-    href="../../../Skins/Default/Stylesheets/Slideshow.css"
+    href="./Skins/Default/Stylesheets/Slideshow.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Default/Stylesheets/TextEffects.css"
+    href="./Skins/Default/Stylesheets/TextEffects.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Default/Stylesheets/Topic.css"
+    href="./Skins/Default/Stylesheets/Topic.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Default/Stylesheets/Components/Styles.css"
+    href="./Skins/Default/Stylesheets/Components/Styles.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Default/Stylesheets/Components/Tablet.css"
+    href="./Skins/Default/Stylesheets/Components/Tablet.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Default/Stylesheets/Components/Mobile.css"
+    href="./Skins/Default/Stylesheets/Components/Mobile.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Default/Stylesheets/Components/Print.css"
+    href="./Skins/Default/Stylesheets/Components/Print.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Fluid/Stylesheets/foundation.6.2.3.css"
+    href="./Skins/Fluid/Stylesheets/foundation.6.2.3.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Fluid/Stylesheets/Styles.css"
+    href="./Skins/Fluid/Stylesheets/Styles.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Fluid/Stylesheets/Tablet.css"
+    href="./Skins/Fluid/Stylesheets/Tablet.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Fluid/Stylesheets/Mobile.css"
+    href="./Skins/Fluid/Stylesheets/Mobile.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../../Skins/Fluid/Stylesheets/Print.css"
+    href="./Skins/Fluid/Stylesheets/Print.css"
     rel="stylesheet"
     type="text/css"
     data-mc-generated="True"
   />
   <link
-    href="../../_Resources/Stylesheets/StylesForHomePage.css"
+    href="./Content/_Resources/Stylesheets/StylesForHomePage.css"
     rel="stylesheet"
     type="text/css"
   />
   <link
-    href="../../_Resources/Stylesheets/MainStyles.css"
+    href="./Content/_Resources/Stylesheets/MainStyles.css"
     rel="stylesheet"
     type="text/css"
   />
@@ -388,7 +388,7 @@ export default function App() {
                         <div>
                           <p style={{ textAlign: "center" }}>
                             <img
-                              src="../../_Resources/Images/Online/compassGuide.png"
+                              src="./Content/_Resources/Images/Online/compassGuide.png"
                               className="homepage41"
                             />
                           </p>
@@ -409,7 +409,7 @@ export default function App() {
                         <div>
                           <p style={{ textAlign: "center" }}>
                             <img
-                              src="../../_Resources/Images/Online/compassGuide.png"
+                              src="./Content/_Resources/Images/Online/compassGuide.png"
                               className="homepage41"
                             />
                           </p>
@@ -430,7 +430,7 @@ export default function App() {
                         <div>
                           <p style={{ textAlign: "center" }}>
                             <img
-                              src="../../_Resources/Images/Online/horizonSun.png"
+                              src="./Content/_Resources/Images/Online/horizonSun.png"
                               className="homepage41"
                             />
                           </p>
