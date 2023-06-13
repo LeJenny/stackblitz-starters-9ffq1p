@@ -1,0 +1,1313 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+/* Home Page General Styles*/
+
+body
+{
+	font-family: Arial;
+	line-height: 1.5em;
+}
+
+a.BlackText
+{
+	color: #282828;
+	text-decoration: none;
+}
+
+h1
+{
+	font-size: 2.75em;
+}
+
+h3
+{
+	font-size: 1.6785em;
+}
+
+h3.SubCenter
+{
+	text-align: center;
+}
+
+img.Hyperlinked
+{
+	border-style: none;
+}
+
+img.Slideshow
+{
+	border-style: none;
+	margin-bottom: 10px;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	margin-left: 0;
+	padding-left: 0;
+}
+
+p
+{
+	color: #282828;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+p.Copyright
+{
+	font-size: 0.9em;
+	text-align: left;
+	color: #888888;
+	line-height: 1.6em;
+	margin: 0 0 10px 0;
+}
+
+.centered-text
+{
+	text-align: center;
+}
+
+.center
+{
+	position: relative;
+	margin-right: auto;
+	margin-left: auto;
+	float: none !important;
+	text-align: center;
+}
+
+.whiteheader
+{
+	color: #ffffff;
+	font-weight: normal;
+}
+
+.row.nav-search
+{
+	display: none;
+}
+
+.main-section > .row.outer-row
+{
+	max-width: 100%;
+	padding: 0;
+}
+
+/* Home Page Button Styles */
+
+.button
+{
+	cursor: pointer;
+	background-color: transparent;
+	width: 140px;
+	height: 35px;
+	font-weight: bold;
+	-webkit-transition: all 115ms;
+	-moz-transition: all 115ms;
+	-ms-transition: all 115ms;
+	-o-transition: all 115ms;
+	transition: all 115ms;
+}
+
+.button.black
+{
+	border: solid 2px black;
+	color: black;
+}
+
+.button.black:hover
+{
+	background-color: #ccc;
+}
+
+.button a
+{
+	display: block;
+	position: relative;
+	top: 50%;
+	transform: translateY(-50%);
+	-webkit-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);
+}
+
+div.wrapper
+{
+	max-width: 69em;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 0;
+	left: 0;
+	right: 0;
+}
+
+/* Responsive Header Styles*/
+
+#contentBody > .responsive-header
+{
+	background-color: transparent;
+}
+
+/* Content Section */
+
+#content-section
+{
+	padding-top: 60px;
+	padding-bottom: 60px;
+	background-color: #e6e6e6;
+	margin-top: -50px;
+}
+
+#content-section h3
+{
+	font-weight: normal;
+}
+
+.right-section div.button-group,
+.left-section div.button-group
+{
+	margin-top: 20px;
+}
+
+#content-section .left-section
+{
+	padding-right: 20px;
+}
+
+#content-section .right-section
+{
+	padding-left: 20px;
+}
+
+.left-section .left-content,
+.right-section .right-content
+{
+	height: auto;
+}
+
+#content-section .right-section .table-images:first-of-type
+{
+	margin-bottom: 20px;
+}
+
+#content-section.mc-blurb p
+{
+	margin-top: 0;
+	margin-bottom: 5px;
+}
+
+#content-section.mc-blurb .mc-bullets
+{
+	margin-top: 10px;
+	padding-left: 32%;
+	padding-right: 10px;
+}
+
+#content-section.mc-blurb .mc-bullets > li
+{
+	color: #5a5a5a;
+	list-style-image: url('../Images/General/Bullet1.png');
+	font-size: 14px;
+	margin-top: 8px;
+	line-height: 1.6em;
+}
+
+/* Home Page Topic Hero section*/
+
+div.topichero
+{
+	background-image: url('../Images/Online/Blocks.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	padding-top: 20px;
+	height: 550px;
+	padding-bottom: 150px;
+}
+
+div.topichero h1
+{
+	font-size: 3.6em;
+	margin-top: 1.11em;
+	margin-bottom: 0.5em;
+	line-height: 100%;
+}
+
+div.topichero h3
+{
+	font-size: 1.8em;
+	margin-bottom: 80px;
+	line-height: 100%;
+}
+
+.search,
+.search-bar
+{
+	margin: 0 auto;
+}
+
+/* Home Page slide show */
+
+div.slidingshow
+{
+	margin-bottom: 50px;
+	margin-left: auto;
+	margin-right: auto;
+	width: 750px;
+}
+
+.mc-wrapper .mc-caption
+{
+	background: none;
+}
+
+/* Home Page Video Section */
+
+.video-section
+{
+	padding-top: 30px;
+	padding-bottom: 0px;
+}
+
+.video-section img
+{
+	padding-right: 10px;
+	padding-bottom: 10px;
+}
+
+.video-wrapper
+{
+	padding-bottom: 56.25%;
+	/* 16:9 */
+	position: relative;
+}
+
+.video-section iframe
+{
+	position: absolute;
+	top: 0;
+	left: 15%;
+	width: 70%;
+	height: 70%;
+}
+
+.video-section .columns
+{
+	margin-bottom: 20px;
+}
+
+/* Home Page Footer */
+
+.footer
+{
+	border-style: solid;
+	border-width: 1px;
+	border-top-color: #856c92;
+	border-bottom-color: #ffffff;
+	border-right-color: #ffffff;
+	border-left-color: #ffffff;
+	margin-top: 40px;
+	padding-top: 20px;
+	padding-bottom: 6px;
+	max-width: 69em;
+}
+
+.footer a
+{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.footer > div.row
+{
+	line-height: 14px;
+	padding: 0;
+}
+
+.footer-logo
+{
+	max-width: 100%;
+}
+
+.footer-links
+{
+	text-align: left;
+}
+
+.footer-links a
+{
+	padding-right: 20px;
+}
+
+.footer-icons
+{
+	text-align: right;
+}
+
+.footer-icons > a:first-of-type
+{
+	padding-right: 10px;
+}
+
+/* Mad Cap proxy/editor assigned styles */
+
+MadCap|searchBarProxy
+{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	float: none;
+	width: 50%;
+}
+
+MadCap|topicToolbarProxy
+{
+	float: none;
+}
+
+p.TOC2
+{
+	margin-left: 20px;
+	display: none;
+}
+
+MadCap|menuProxy.menu1
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|menuProxy.menu2
+{
+	mc-toc-depth: 1;
+	mc-context-sensitive: True;
+}
+
+MadCap|slideshow
+{
+	border-style: solid;
+	border-width: 1px;
+	border-radius: 6px;
+	box-shadow: none;
+	border-bottom-color: #ad9db6;
+	border-color: #ad9db6;
+	border-left-color: #ad9db6;
+	border-right-color: #ad9db6;
+}
+
+a.mc-prev
+{
+	background-image: url('../Images/Online/prevArrow.png') !important;
+	background-position: 0 0 !important;
+}
+
+a.mc-next
+{
+	background-image: url('../Images/Online/nextArrow.png') !important;
+	background-position: 10px 0 !important;
+}
+
+MadCap|slideshowCaption
+{
+	background: none;
+	color: #000000;
+}
+
+html.HomePage
+{
+	mc-master-page: url('../MasterPages/HomePage.flmsp');
+	mc-community-features: disabled;
+}
+
+div.Hello	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.Hello::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.Hello::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.Hello > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 9.5px;
+	padding-right: 9.5px;
+}
+
+div.Hello > div:nth-child(1)
+{
+	padding-left: 2.5em;
+	width: 75%;
+	margin-left: 0%;
+}
+
+div.Hello > div:nth-child(2)
+{
+	width: 44%;
+	margin-left: 0%;
+	padding-top: 2em;
+}
+
+div.Hello > div:nth-child(3)
+{
+	width: 28%;
+	margin-left: 0%;
+}
+
+.helloContent
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 1em;
+	text-align: center;
+	max-width: 38%;
+}
+
+div.ResourceRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+
+div.ResourceRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.ResourceRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.ResourceRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+div.ResourceRow > div:nth-child(1)
+{
+	width: 41.667%;
+	margin-left: 0%;
+}
+
+div.ResourceRow > div:nth-child(2)
+{
+	width: 58.333%;
+	margin-left: 0%;
+}
+
+div.ResourceRow > div:nth-child(3)
+{
+	width: 26%;
+	margin-left: 0%;
+}
+
+div.FunctionRow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.FunctionRow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.FunctionRow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.FunctionRow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.FunctionRow > div:nth-child(1)
+{
+	height: 15.5em;
+	width: 25%;
+	margin-left: 0%;
+	background-color: #28a691;
+	padding-top: 1.50em;
+	padding-left: 2.5em;
+}
+
+div.FunctionRow > div:nth-child(2)
+{
+	height: 15.5em;
+	width: 16.67%;
+	margin-left: 0%;
+	padding-top: 1.50em;
+	background-color: #28a691;
+	position: relative;
+}
+
+.FRDesign
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	max-width: 100%;
+}
+
+div.FunctionRow > div:nth-child(3)
+{
+	height: 15.5em;
+	width: 16.67%;
+	margin-left: 0%;
+	padding-top: 1.50em;
+	background-color: #41ad49;
+	position: relative;
+}
+
+.FRProcess
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: left;
+	max-width: 100%;
+}
+
+div.FunctionRow > div:nth-child(4)
+{
+	height: 15.5em;
+	width: 16.67%;
+	margin-left: 0%;
+	padding-top: 1.50em;
+	background-color: #39a6d8;
+	position: relative;
+}
+
+.FRReview
+{
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	text-align: center;
+	max-width: 100%;
+}
+
+div.FunctionRow > div:nth-child(5)
+{
+	height: 15.5em;
+	width: 24.8%;
+	margin-left: 0%;
+	background-color: #39a6d8;
+	padding-top: 1.50em;
+}
+
+div.EditProfileNarrative2Col1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.EditProfileNarrative2Col1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.EditProfileNarrative2Col1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.EditProfileNarrative2Col1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.EditProfileNarrative2Col1 > div:nth-child(1)
+{
+	width: 25%;
+	margin-left: 16.667%;
+}
+
+div.EditProfileNarrative2Col1 > div:nth-child(2)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.EditProfileNarrative2Col2	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.EditProfileNarrative2Col2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.EditProfileNarrative2Col2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.EditProfileNarrative2Col2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.EditProfileNarrative2Col2 > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.EditProfileNarrative2Col2 > div:nth-child(2)
+{
+	width: 66.667%;
+	margin-left: 0%;
+}
+
+MadCap|slideshowBullet
+{
+	background-color: #ffb145;
+}
+
+MadCap|slideshowBullet.active
+{
+	background-color: #330a49;
+}
+
+div.WelcomeSearch2x2	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 4em;
+}
+
+div.WelcomeSearch2x2::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.WelcomeSearch2x2::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.WelcomeSearch2x2 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 8px;
+	padding-right: 8px;
+}
+
+div.WelcomeSearch2x2 > div:nth-child(1)
+{
+	width: 41.667%;
+	margin-left: 0%;
+}
+
+div.WelcomeSearch2x2 > div:nth-child(2)
+{
+	width: 58.333%;
+	margin-left: 0%;
+}
+
+div.slideshow	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.slideshow::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.slideshow::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.slideshow > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 9.5px;
+	padding-right: 9.5px;
+}
+
+div.slideshow > div:nth-child(1)
+{
+	padding-left: 1em;
+	width: 100%;
+	margin-left: 0%;
+}
+
+div.top3x3	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.top3x3::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.top3x3::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+/*Reference for previous top3x3 rounded box borders.
+
+
+div.top3x3 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-width: 1px 1px 1px 1px;
+	border-color: #ff8e88;
+	border-style: solid;
+	border-radius: 5px;
+	padding: 23px;
+	background-color:#ffffff;
+}
+
+div.top3x3 > div:nth-child(1)
+{
+	width: 30.33333%;
+	margin-left: 0%;
+
+}
+
+div.top3x3 > div:nth-child(2)
+{
+	width: 30.33333%;
+	margin-left: 3%;
+
+
+}
+
+div.top3x3 > div:nth-child(3)
+{
+	width: 30.33333%;
+	margin-left: 3%;
+
+
+}
+
+*/
+
+div.top3x3 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	border-width: 0px 1px 0px 0px;
+	border-color: #ff8e88;
+	border-style: solid;
+	padding-left: 40px;
+	padding-right: 40px;
+	background-color: #ffffff;
+}
+
+div.top3x3 > div:nth-child(1)
+{
+	width: 33%;
+	margin-left: 0%;
+}
+
+div.top3x3 > div:nth-child(2)
+{
+	width: 33%;
+	margin-left: 0%;
+}
+
+div.top3x3 > div:nth-child(3)
+{
+	width: 33%;
+	margin-left: 0%;
+	border-width: 0px 1px 0px 0px;
+	border-color: #ffffff;
+	border-style: solid;
+}
+
+/* Medium Layout */
+
+@media only screen and (max-width: 64.063em)
+{
+	#content-section .right-section,
+	#content-section .left-section
+	{
+		padding: 0;
+	}
+
+	div.slidingshow
+	{
+		width: 100%;
+	}
+
+	.left-section div.button-group > div
+	{
+		margin-bottom: 20px;
+	}
+
+	.footer
+	{
+		padding-top: 20px;
+		padding-bottom: 20px;
+		align: left;
+	}
+}
+
+/* Small Layout */
+
+@media screen and (max-width: 40em)
+{
+	MadCap|searchBarProxy.homeSearchBar
+	{
+		width: 100%;
+	}
+
+	div.topichero h1
+	{
+		font-size: 2em;
+	}
+
+	div.topichero h3
+	{
+		font-size: 1.2em;
+	}
+
+	#content-section
+	{
+		padding-top: 30px;
+		padding-bottom: 30px;
+	}
+
+	.video-section
+	{
+		padding-top: 30px;
+	}
+
+	.video-section .columns
+	{
+		padding: 0;
+	}
+
+	.footer-links,
+	p.Copyright,
+	.footer-icons
+	{
+		text-align: center;
+	}
+}
+
+@media print
+{
+	a:link
+	{
+		color: #37bc61;
+	}
+
+	a:hover
+	{
+		color: #a8a8a8;
+	}
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.Hello > div:nth-child(1)
+	{
+		width: 28%;
+		margin-left: 0%;
+	}
+
+	div.Hello > div:nth-child(2)
+	{
+		width: 44%;
+		margin-left: 0%;
+	}
+
+	div.Hello > div:nth-child(3)
+	{
+		width: 28%;
+		margin-left: 0%;
+	}
+
+	div.ResourceRow > div:nth-child(1)
+	{
+		width: 26%;
+		margin-left: 0%;
+	}
+
+	div.ResourceRow > div:nth-child(2)
+	{
+		width: 48%;
+		margin-left: 0%;
+	}
+
+	div.ResourceRow > div:nth-child(3)
+	{
+		width: 26%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(1)
+	{
+		width: 25%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(2)
+	{
+		width: 16.67%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(3)
+	{
+		width: 16.67%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(4)
+	{
+		width: 16.67%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(5)
+	{
+		width: 24.8%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col1 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col1 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col2 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col2 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.WelcomeSearch2x2 > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.WelcomeSearch2x2 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.slideshow > div:nth-child(1)
+	{
+		width: 28%;
+		margin-left: 0%;
+	}
+
+	div.slideshow > div:nth-child(2)
+	{
+		width: 44%;
+		margin-left: 0%;
+	}
+
+	div.slideshow > div:nth-child(3)
+	{
+		width: 28%;
+		margin-left: 0%;
+	}
+
+	div.top3x3 > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.top3x3 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.top3x3 > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.Hello > div:nth-child(1)
+	{
+		width: 100%;
+		margin-top: 2em;
+		margin-left: 0%;
+		padding-left: 1.2em;
+	}
+
+	div.Hello > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.Hello > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 2em;
+	}
+
+	div.ResourceRow > div:nth-child(1)
+	{
+		width: 100%;
+		padding-left: 1em;
+	}
+
+	div.ResourceRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.ResourceRow > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(1)
+	{
+		width: 100%;
+		height: 4em;
+		padding-left: 1em;
+		background-color: #ffffff;
+	}
+
+	div.FunctionRow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(4)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.FunctionRow > div:nth-child(5)
+	{
+		width: 0%;
+		margin-left: 0%;
+	}
+
+	.FRDesign
+	{
+		max-width: 40%;
+		text-align: center;
+	}
+
+	.FRProcess
+	{
+		max-width: 45%;
+		text-align: left;
+	}
+
+	.FRReview
+	{
+		max-width: 40%;
+		text-align: center;
+	}
+
+	div.slidingshow
+	{
+		margin-bottom: 2em;
+	}
+
+	.helloContent
+	{
+		position: relative;
+		left: 11%;
+		max-width: 80%;
+	}
+
+	.footer-links,
+	p.Copyright,
+	.footer-icons
+	{
+		text-align: center;
+	}
+
+	div.EditProfileNarrative2Col1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col2 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col2 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.WelcomeSearch2x2 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.WelcomeSearch2x2 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.slideshow > div:nth-child(1)
+	{
+		width: 100%;
+		margin-top: 2em;
+		margin-left: 0%;
+		padding-left: 1.2em;
+	}
+
+	div.slideshow > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.slideshow > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+		margin-top: 2em;
+	}
+
+	div.top3x3 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.top3x3 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.top3x3 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+

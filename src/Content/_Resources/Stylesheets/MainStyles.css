@@ -1,0 +1,2115 @@
+/*<meta />*/
+
+@namespace MadCap url(http://www.madcapsoftware.com/Schemas/MadCap.xsd);
+
+@font-face
+{
+	font-family: 'Roboto';
+	src: url('../Fonts_/Roboto-Regular.ttf');
+}
+
+@font-face
+{
+	font-family: 'Roboto Regular';
+	src: url('../Fonts_/Roboto-Regular.ttf');
+}
+
+@font-face
+{
+	font-family: 'Roboto Light';
+	src: url('../Fonts_/Roboto-Light.ttf');
+}
+
+@font-face
+{
+	font-family: 'Roboto Medium';
+	src: url('../Fonts_/Roboto-Medium.ttf');
+}
+
+body
+{
+	color: #404040;
+	font-family: Roboto, Arial;
+	font-size: 1em;
+	line-height: 1.6em;
+}
+
+a
+{
+	color: #ff4338;
+}
+
+a:link
+{
+	color: #ff4338;
+}
+
+a:visited
+{
+	color: #ff4338;
+}
+
+a:hover
+{
+	color: #000000;
+}
+
+a.MCBreadcrumbsLink
+{
+	font-style: italic;
+	text-decoration: underline;
+}
+
+a.MCBreadcrumbsLink:visited
+{
+	color: #856c92;
+}
+
+a.MCBreadcrumbsLink:hover
+{
+	color: #000000;
+}
+
+blockquote
+{
+	background-color: #e1e1e1;
+	background-image: url('../../../../BG.NEXT/Content/_Resources/Images/Online/QuotationMark.png');
+	background-repeat: no-repeat;
+	background-position: top left;
+	border-bottom: none;
+	border-left-color: #b3b3b3;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #b3b3b3;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #b3b3b3;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-family: 'Century Gothic';
+	font-size: 0.9em;
+	font-style: italic;
+	font-weight: normal;
+	line-height: 18px;
+	margin: 0;
+	padding-bottom: 0px;
+	padding-left: 35px;
+	padding-right: 35px;
+	padding-top: 12px;
+}
+
+blockquote.name
+{
+	background-image: none;
+	border-bottom-color: #b3b3b3;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-top: none;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	margin-bottom: 0;
+	padding-bottom: 12px;
+	padding-right: 35px;
+	padding-top: 8px;
+	text-align: right;
+}
+
+div.ImagesFloatLeft
+{
+	clear: both;
+	float: left;
+	margin-right: 24px;
+	padding: 5px;
+}
+
+div.ImagesFloatRight
+{
+	clear: both;
+	float: right;
+	margin-left: 0px;
+	padding: 20px;
+}
+
+div.TightContent
+{
+	margin: 0px;
+	padding: 0px;
+	line-height: 1em;
+}
+
+div.sideContent
+{
+	float: right;
+	margin-left: 10px;
+	margin-bottom: 10px;
+	width: 33.33%;
+}
+
+html.templateTopic div.sideContent
+{
+	display: none;
+}
+
+/*Breadcrumbs-----------------------------------------------*/
+
+MadCap|breadcrumbsProxy
+{
+	border-bottom: none;
+	font-size: .8em;
+	font-style: italic;
+	color: #ff9e16;
+	mc-breadcrumbs-prefix: 'You are here: ';
+}
+
+/*Drop-downs-----------------------------------------------*/
+
+MadCap|dropDown
+{
+	margin-bottom: 6px;
+	margin-top: 6px;
+	mc-disabled: false;
+	mc-closed-image: url('../Images/Online/DropDownClosed.png');
+	mc-open-image: url('../Images/Online/DropDownOpen.png');
+}
+
+MadCap|dropDownBody
+{
+	border-bottom: solid 1px #ff4338;
+	mc-disabled: false;
+}
+
+MadCap|dropDownBody.Final
+{
+	border-bottom: 0px;
+}
+
+MadCap|dropDownHead
+{
+	mc-disabled: false;
+}
+
+MadCap|dropDownHotspot
+{
+	color: #5c3b6d;
+	font-size: 1em;
+	font-weight: bold;
+	mc-disabled: false;
+}
+
+MadCap|dropDownHotspot:hover
+{
+	color: #ff4338;
+}
+
+/*Examples-----------------------------------------------*/
+
+p.Example
+{
+	background-color: #bed230;
+	border-bottom-color: #a4ac67;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #a4ac67;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #a4ac67;
+	border-right-style: solid;
+	border-right-width: 1px;
+	margin-top: 0px;
+	padding-bottom: 14px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+}
+
+p.ExampleHead
+{
+	background-color: #bed230;
+	border-left-color: #a4ac67;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #a4ac67;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #a4ac67;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	font-size: .9em;
+	font-weight: bold;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+	margin-top: 6px;
+	padding-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 14px;
+	page-break-after: avoid;
+}
+
+p.ExampleMiddleSection
+{
+	background-color: #bed230;
+	border-left-color: #a4ac67;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #a4ac67;
+	border-right-style: solid;
+	border-right-width: 1px;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 6px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 6px;
+}
+
+/*Figures-----------------------------------------------*/
+
+p.figure
+{
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'CF: Figure {chapnum}-{n+}. ';
+}
+
+p.figureNoChapter
+{
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'CF: Figure {n+}. ';
+	page-break-after: avoid;
+}
+
+/*Headers-----------------------------------------------*/
+
+h1
+{
+	font-size: 2em;
+	font-weight: normal;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	color: #330a49;
+	line-height: 1.00em;
+	margin-top: 0.5em;
+}
+
+h1.NoTOC
+{
+	font-size: 2em;
+	font-weight: lighter;
+	margin-bottom: 10px;
+	padding-bottom: 10px;
+	margin-top: .50em;
+	mc-heading-level: 0;
+}
+
+h2
+{
+	font-size: 1.4em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 28px;
+	color: #330a49;
+	page-break-after: avoid;
+}
+
+h2.NoTOC
+{
+	font-size: 1.4em;
+	font-family: 'Roboto Light';
+	margin-bottom: 4px;
+	margin-top: 28px;
+	mc-heading-level: 0;
+}
+
+h2.CIP
+{
+	font-size: 1.4em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 28px;
+	mc-heading-level: 0;
+	page-break-before: always;
+}
+
+h2.lineBreak
+{
+	font-size: 1.4em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 28px;
+	color: #330a49;
+	line-height: 1.2em;
+}
+
+h2.RN
+{
+	margin-bottom: 4px;
+	margin-top: 28px;
+	page-break-after: avoid;
+	color: #ad9db6;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 8px;
+	border-top-style: solid;
+	border-top-width: 1px;
+}
+
+h2.RNFF
+{
+	margin-bottom: 4px;
+	margin-top: 28px;
+	page-break-after: avoid;
+	text-decoration: none;
+	font-size: 1.5em;
+	font-weight: normal;
+	font-style: normal;
+	padding-top: 8px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-color: #ad9db6;
+	color: #ff9e16;
+}
+
+h3
+{
+	font-size: 1.2em;
+	font-weight: normal;
+	margin-bottom: 4px;
+	margin-top: 28px;
+	color: #5c3b6d;
+	mc-heading-level: 0;
+	page-break-after: avoid;
+}
+
+h3.FF
+{
+	font-size: 1.3em;
+	font-weight: normal;
+	margin-bottom: 0px;
+	margin-top: 20px;
+	color: #5c3b6d;
+	mc-heading-level: 0;
+	page-break-after: avoid;
+}
+
+h4
+{
+	margin-top: 2.1em;
+	margin-bottom: 0.5em;
+	color: #856C92;
+	mc-heading-level: 0;
+}
+
+h4.FF
+{
+	font-size: 1.1em;
+	font-style: italic;
+	margin-top: 2.1em;
+	margin-bottom: 0.5em;
+	margin-top: 16px;
+	color: #ad9db6;
+	mc-heading-level: 0;
+}
+
+p.Appendix_H1
+{
+	margin-top: 8px;
+	widows: 2;
+	orphans: 2;
+	font-size: 24pt;
+	font-family: 'Roboto Light';
+	margin-bottom: 24px;
+	mc-heading-level: 2;
+}
+
+p.Appendix_h2
+{
+	margin-bottom: 8px;
+	margin-top: 8px;
+	widows: 2;
+	orphans: 2;
+	font-size: 16pt;
+	font-family: 'Roboto Light';
+	color: #38a6d9;
+	mc-heading-level: 0;
+}
+
+p.Appendix_h1NoTOC
+{
+	margin-top: 8px;
+	widows: 2;
+	orphans: 2;
+	font-size: 24pt;
+	font-family: 'Roboto Light';
+	margin-bottom: 24px;
+	mc-heading-level: 0;
+}
+
+p.h3Copy
+{
+	margin-bottom: 8px;
+	widows: 2;
+	orphans: 2;
+	font-size: 12pt;
+	font-family: Roboto;
+	margin-top: 14px;
+}
+
+/*Images-----------------------------------------------*/
+
+img
+{
+	border: none;
+}
+
+.FiftyPercentMaxWidth
+{
+	max-width: 50%;
+}
+
+img.Thumbnail
+{
+	mc-thumbnail: popup;
+}
+
+img.ReduceButtonSize
+{
+	max-height: 14px;
+	max-width: auto;
+}
+
+img.OneHundredPercent
+{
+	max-width: 100%;
+}
+
+img.SeventyFivePercent
+{
+	max-width: 75%;
+}
+
+img.OneHundredPercentThumbnail
+{
+	mc-thumbnail: popup;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #ad9db6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #ad9db6;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ad9db6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ad9db6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	mc-thumbnail-max-height: 150px;
+}
+
+img.SeventyFivePercentThumbnail
+{
+	mc-thumbnail: popup;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #ad9db6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #ad9db6;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ad9db6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ad9db6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	mc-thumbnail-max-height: 150px;
+}
+
+img.FiftyPercentThumbnail
+{
+	mc-thumbnail: popup;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-left-color: #ad9db6;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-right-color: #ad9db6;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ad9db6;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ad9db6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	mc-thumbnail-max-height: 150px;
+}
+
+img.AtaGlance
+{
+	mc-thumbnail: popup;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ad9db6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 28px;
+	margin-bottom: 5px;
+	mc-thumbnail-max-height: 150px;
+}
+
+img.AtaGlanceCallout
+{
+	mc-thumbnail: popup;
+	padding-bottom: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+	padding-top: 5px;
+	border-style: solid;
+	border-width: 1px;
+	border-color: #ad9db6;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-bottom-left-radius: 5px;
+	margin-left: 5px;
+	margin-right: 5px;
+	margin-top: 28px;
+	margin-bottom: 5px;
+	mc-thumbnail-max-height: 150px;
+}
+
+img.homepage41
+{
+	max-width: 41%;
+	padding-bottom: -10px;
+}
+
+img.OneHundredPercentRN-icon
+{
+	max-width: 100%;
+	padding-bottom: -10px;
+}
+
+img.RNbubble
+{
+	border: none;
+	margin-bottom: -16px;
+}
+
+/*Lists-----------------------------------------------*/
+
+ol
+{
+	list-style-image: none;
+	margin-left: -12px;
+}
+
+ol.LowerAlpha
+{
+	list-style-type: lower-alpha;
+}
+
+ol.LowerRoman
+{
+	list-style-type: lower-roman;
+}
+
+ul
+{
+	margin-left: 1.5em;
+	padding: 0;
+	list-style-image: url('../Images/General/Bullet_Web.png');
+}
+
+ul.FirstLevelLessIndentation
+{
+	list-style-image: url('../Images/General/Bullet_Web.png');
+}
+
+ul.SecondLevel
+{
+	list-style-image: url('../Images/General/BulletSecond_Web.png');
+}
+
+ul.SecondLevelTable
+{
+	list-style-image: url('../Images/General/BulletSecond_Web.png');
+	padding-bottom: -2px;
+}
+
+ul.CircleOpen
+{
+	list-style-image: url('../Images/General/Bullet_Circle.png');
+}
+
+li
+{
+	orphans: 2;
+	widows: 2;
+	margin-left: -6px;
+}
+
+li.tabletext
+{
+	orphans: 2;
+	widows: 2;
+	margin-top: -16px;
+	margin-left: -6px;
+}
+
+li.tablebulletTop
+{
+	orphans: 2;
+	widows: 2;
+	margin-top: -10px;
+	margin-left: -6px;
+}
+
+li.tablebullet
+{
+	orphans: 2;
+	widows: 2;
+	margin-top: 0px;
+	margin-left: -6px;
+}
+
+li.edits
+{
+	orphans: 2;
+	widows: 2;
+	margin-top: 10px;
+	margin-left: -6px;
+}
+
+/*Notes-----------------------------------------------*/
+
+/*Original Note Style
+p.note
+{
+	background-color: #3e3e3e;
+	background-image: url('../Images/NoteIcon.png');
+	background-repeat: no-repeat;
+	border: solid 1px #404040;
+	border-radius: 6px;
+	color: #b3b3b3;
+	mc-auto-number-format: '{b}{color #bed230}Note: {/color}{/b}';
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+}
+*/
+
+p.tip
+{
+	background-color: #ffffff;
+	background-image: none;
+	margin-left: 22px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #ff9e16;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-right-color: #404040;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-top-color: #404040;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #404040;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+}
+
+p.tipRN
+{
+	background-color: #ffffff;
+	background-image: none;
+	margin-left: 22px;
+	border-left-style: solid;
+	border-left-width: 3px;
+	border-left-color: #ff9e16;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-right-color: #404040;
+	border-top-style: none;
+	border-top-width: 1px;
+	border-top-color: #404040;
+	border-bottom-style: none;
+	border-bottom-width: 1px;
+	border-bottom-color: #404040;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Tip: ';
+}
+
+p.note
+{
+	background-color: #ffffff;
+	background-image: none;
+	margin-left: 0;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-left-style: none;
+	border-left-width: 1px;
+	border-left-color: #c0c0c0;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-right-color: #404040;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ff9e16;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ff9e16;
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Note: ';
+}
+
+p.noteRN
+{
+	background-color: #ffffff;
+	background-image: none;
+	margin-left: 0;
+	page-break-before: avoid;
+	padding-left: 20px;
+	padding-right: 10px;
+	padding-top: 12px;
+	padding-bottom: 12px;
+	border-top-left-radius: 0px;
+	border-top-right-radius: 0px;
+	border-bottom-right-radius: 0px;
+	border-bottom-left-radius: 0px;
+	border-left-style: none;
+	border-left-width: 1px;
+	border-left-color: #c0c0c0;
+	border-right-style: none;
+	border-right-width: 1px;
+	border-right-color: #404040;
+	border-top-style: solid;
+	border-top-width: 1px;
+	border-top-color: #ff9e16;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-bottom-color: #ff9e16;
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Note: ';
+}
+
+p.noteBottom
+{
+	background-color: #3e3e3e;
+	border-bottom-color: #404040;
+	border-bottom-left-radius: 6px;
+	border-bottom-right-radius: 6px;
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+	border-left-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #404040;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top: 0px;
+	color: #b3b3b3;
+	margin-top: 0px;
+	padding-bottom: 10px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 0px;
+}
+
+p.noteMiddle
+{
+	background-color: #3e3e3e;
+	border-bottom: 0px;
+	border-left-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #404040;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top: 0px;
+	color: #b3b3b3;
+	margin-bottom: 0px;
+	margin-top: 0px;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 0px;
+}
+
+p.noteTop
+{
+	background-color: #3e3e3e;
+	background-image: url('../../../../BG.NEXT/Content/_Resources/Images/Online/NoteIcon.png');
+	background-repeat: no-repeat;
+	border-left-color: #404040;
+	border-left-style: solid;
+	border-left-width: 1px;
+	border-right-color: #404040;
+	border-right-style: solid;
+	border-right-width: 1px;
+	border-top-color: #404040;
+	border-top-left-radius: 6px;
+	border-top-right-radius: 6px;
+	border-top-style: solid;
+	border-top-width: 1px;
+	color: #b3b3b3;
+	margin-bottom: 0;
+	padding-bottom: 8px;
+	padding-left: 40px;
+	padding-right: 10px;
+	padding-top: 10px;
+	mc-auto-number-class: Emphasis;
+	mc-auto-number-format: 'Note: ';
+}
+
+p.leadin
+{
+	margin-bottom: 8px;
+	widows: 2;
+	orphans: 2;
+	margin-top: 8px;
+	page-break-after: avoid;
+}
+
+/*P Tags-----------------------------------------------*/
+
+p
+{
+	margin-bottom: 8px;
+	widows: 2;
+	orphans: 2;
+	margin-top: 8px;
+}
+
+p.CompanyInformation1
+{
+	margin-bottom: 4px;
+	margin-top: 14px;
+	font-weight: bold;
+}
+
+p.CompanyInformation2
+{
+	color: #6d6d6d;
+	margin-top: 4px;
+	margin-bottom: 4px;
+}
+
+b.smallcaps
+{
+	
+}
+
+p.navigation
+{
+	font-weight: normal;
+	font-style: italic;
+	color: #ff9e16;
+	font-size: 10pt;
+	page-break-after: avoid;
+}
+
+p.tabletextTop
+{
+	margin-bottom: 8px;
+	widows: 2;
+	orphans: 2;
+	margin-top: -1px;
+}
+
+p.linebreak
+{
+	margin-bottom: 8px;
+	widows: 2;
+	orphans: 2;
+	margin-top: -8px;
+}
+
+p.superscriptLine
+{
+	margin-bottom: 8px;
+	widows: 2;
+	orphans: 2;
+	margin-top: -7px;
+}
+
+p.JSON1
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+	padding-right: 20px;
+	padding-top: 0px;
+	font-family: monospace;
+	font-size: 11pt;
+	line-height: 12pt;
+}
+
+p.JSON2
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 0px;
+	font-family: monospace;
+	font-size: 11pt;
+	line-height: 12pt;
+}
+
+p.JSON3
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+	padding-left: 40px;
+	padding-right: 20px;
+	padding-top: 0px;
+	font-family: monospace;
+	font-size: 11pt;
+	line-height: 12pt;
+}
+
+p.JSON4
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+	padding-left: 60px;
+	padding-right: 20px;
+	padding-top: 0px;
+	font-family: monospace;
+	font-size: 11pt;
+	line-height: 12pt;
+}
+
+p.JSON5
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+	padding-left: 80px;
+	padding-right: 20px;
+	padding-top: 0px;
+	font-family: monospace;
+	font-size: 11pt;
+	line-height: 12pt;
+}
+
+p.JSON6
+{
+	background-color: #ffffff;
+	margin-top: 0px;
+	margin-bottom: 4px;
+	padding-bottom: 0px;
+	padding-left: 100px;
+	padding-right: 20px;
+	padding-top: 0px;
+	font-family: monospace;
+	font-size: 11pt;
+	line-height: 12pt;
+}
+
+/*Pop-ups-----------------------------------------------*/
+
+MadCap|popup
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:focus
+{
+	color: #2D8DCC;
+}
+
+MadCap|popup:hover
+{
+	color: #2D8DCC;
+}
+
+MadCap|popupHead
+{
+	color: #2D8DCC;
+	font-weight: bold;
+}
+
+/*Spans-----------------------------------------------*/
+
+span.Emphasis
+{
+	font-weight: bold;
+}
+
+span.purple100bold
+{
+	color: #330a49;
+	font-weight: bold;
+}
+
+span.SetOffFirstLevel
+{
+	color: #5e6914;
+	font-weight: bold;
+}
+
+span.SetOffSecondLevel
+{
+	color: #445879;
+	font-weight: bold;
+}
+
+span.path
+{
+	font-weight: normal;
+	font-style: italic;
+	color: #ff9e16;
+}
+
+span.pathRN
+{
+	font-weight: normal;
+	font-style: italic;
+	color: #5c3b6d;
+}
+
+span.BRed
+{
+	color: #ff4338;
+}
+
+span.BOrange
+{
+	color: #ff9e16;
+}
+
+span.purple60
+{
+	font-weight: normal;
+	color: #856c92;
+}
+
+span.BRed80
+{
+	color: #ff6960;
+}
+
+span.purple60bold
+{
+	font-weight: bold;
+	color: #856c92;
+}
+
+span.SearchHighlight
+{
+	background-color: #ffb145;
+}
+
+span.usnumber
+{
+	color: #00bfff;
+	mc-conditions: 'General.USNumbers';
+}
+
+/*Table Text-----------------------------------------------*/
+
+p.TableTextCenterDark
+{
+	color: #404040;
+	margin-bottom: 2px;
+	margin-top: 8px;
+	text-align: center;
+}
+
+p.TableTextDark
+{
+	color: #404040;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+p.TableTextDarkEmphasis
+{
+	color: #404040;
+	font-weight: bold;
+	margin-bottom: 2px;
+	margin-top: 8px;
+}
+
+td
+{
+	margin: 8px;
+	vertical-align: top;
+}
+
+th
+{
+	color: #ffffff;
+	margin-bottom: 8px;
+	margin-top: 8px;
+}
+
+/*Xref-----------------------------------------------*/
+
+MadCap|xref
+{
+	font-weight: normal;
+	mc-format: '{u}{para}{/u}';
+	color: #330a49;
+}
+
+MadCap|xref.xrefQuotes
+{
+	mc-format: '{b}{para}{/b}';
+	color: #330a49;
+}
+
+MadCap|xref.welcome
+{
+	font-weight: normal;
+	mc-format: '{quote}{b}{para}{/b}{quote}';
+	color: #330a49;
+}
+
+MadCap|xref:hover
+{
+	color: #000000;
+}
+
+/*Responsive Styles-----------------------------------------------*/
+
+div.NewRowClass1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.NewRowClass1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.NewRowClass1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.NewRowClass1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.NewRowClass1 > div:nth-child(1)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.NewRowClass1 > div:nth-child(2)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+div.NewRowClass1 > div:nth-child(3)
+{
+	width: 33.33333%;
+	margin-left: 0%;
+}
+
+p.Title
+{
+	color: #330a49;
+	font-family: Roboto, Arial;
+}
+
+MadCap|tocProxy
+{
+	color: #330a49;
+}
+
+caption
+{
+	color: #330a49;
+}
+
+hr
+{
+	border-bottom-style: inset;
+	border-bottom: ridge 1px #ff4338;
+}
+
+div.EditProfileDetails	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.EditProfileDetails::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.EditProfileDetails::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.EditProfileDetails > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+
+div.EditProfileDetails > div:nth-child(1)
+{
+	width: 33.333%;
+	margin-left: 0%;
+}
+
+div.EditProfileDetails > div:nth-child(2)
+{
+	width: 66.667%;
+	margin-left: 0%;
+}
+
+div.EditProfileNarrative	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.EditProfileNarrative::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.EditProfileNarrative::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.EditProfileNarrative > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.EditProfileNarrative > div:nth-child(1)
+{
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 79%;
+	margin-left: 0%;
+}
+
+div.EditProfileNarrative > div:nth-child(2)
+{
+	background-color: #d3cedb;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 21%;
+	margin-left: 0%;
+}
+
+div.EditProfileNarrative2Col	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.EditProfileNarrative2Col::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.EditProfileNarrative2Col::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.EditProfileNarrative2Col > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.EditProfileNarrative2Col > div:nth-child(1)
+{
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 60%;
+	margin-left: 0%;
+}
+
+div.EditProfileNarrative2Col > div:nth-child(2)
+{
+	background-color: #d3cedb;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top: 10px;
+	width: 40%;
+	margin-left: 0%;
+}
+
+MadCap|miniTocProxy
+{
+	text-decoration: underline;
+	color: #330a49;
+	border-top-color: transparent;
+	border-top-style: none;
+	border-top-width: 0px;
+	border-left: solid 1px #ad9db6;
+}
+
+p.MiniTOC2
+{
+	color: #330a49;
+	mc-pagenum-display: all;
+}
+
+div.welcome2x2home1	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.welcome2x2home1::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.welcome2x2home1::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.welcome2x2home1 > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+div.welcome2x2home1 > div:nth-child(1)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.welcome2x2home1 > div:nth-child(2)
+{
+	width: 50%;
+	margin-left: 0%;
+}
+
+div.single	/*This is a custom responsive layout row style (div class) in your stylesheet. To provide your own description for this style: (1) Open the stylesheet; (2) Find and select the div class with this name; and (3) In the Comment field, replace this text with your own. For more information on adding comments to styles, see the online Help.*/
+{
+	mc-grid-row: true;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+div.single::before
+{
+	content: ' ';
+	display: table;
+}
+
+div.single::after
+{
+	content: ' ';
+	display: table;
+	clear: both;
+}
+
+div.single > div
+{
+	float: left;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	text-align: center;
+}
+
+div.single > div:nth-child(1)
+{
+	width: 100%;
+	margin-left: 0%;
+}
+
+p.MiniTOC1
+{
+	font-weight: normal;
+	mc-leader-offset: 20px;
+	color: #330a49;
+	mc-leader-format: '.';
+	mc-leader-indent: 5px;
+	padding-left: -10px;
+}
+
+a.Popup
+{
+	color: #856c92;
+}
+
+/* Styles for topic pop-up (new/updated guides in help system): overrides 
+   size, position, and colors for the built-in topic pop-up container. 
+   Note: two-level-deep selectors don't appear in the Flare CSS editor. */
+
+div.MCTopicPopupContainer
+{
+	max-height: 320px;
+	max-width: 640px;
+	display: block;
+	min-height: 320px;
+	min-width: 640px;
+}
+
+button.CloseTopicPopupButton
+{
+	color: #404040;
+}
+
+button.CloseTopicPopupButton.CloseTopicInner
+{
+	font-size: 36px;
+}
+
+button.CloseTopicPopupButton.CloseTopicOuter
+{
+	position: relative;
+	top: 8px;
+	right: 32px;
+}
+
+/*Media queries-----------------------------------------------*/
+
+@media print
+{
+	body
+	{
+		font-family: 'Roboto Light';
+		color: #231f20;
+		font-size: 10pt;
+		line-height: 14pt;
+		mc-hyphenate: never;
+	}
+
+	p.Title
+	{
+		font-family: 'NeueHaasGroteskText Medium, Roboto Medium';
+		font-size: 54pt;
+		margin-top: 75px;
+		margin-bottom: 80px;
+		letter-spacing: -3px;
+	}
+
+	h1
+	{
+		margin-top: 28px;
+		padding-bottom: 12px;
+		font-size: 24pt;
+	}
+
+	h2
+	{
+		font-size: 16pt;
+		font-family: 'Roboto Regular';
+		margin-top: 28px;
+	}
+
+	h2.lineBreak
+	{
+		font-family: 'NeueHaasGroteskText, Roboto Regular';
+		line-height: 17pt;
+	}
+
+	h3
+	{
+		font-size: 12pt;
+		font-family: 'Roboto Regular';
+		margin-top: 22px;
+		mc-heading-level: 3;
+	}
+
+	h4
+	{
+		margin-top: 18pt;
+	}
+
+	p.figure
+	{
+		mc-auto-number-format: 'Figure {chapnum}-{n+}. ';
+		mc-auto-number-class: Emphasis;
+		font-weight: normal;
+		font-style: normal;
+		page-break-after: avoid;
+	}
+
+	p.Table
+	{
+		mc-auto-number-format: 'Table {chapnum}-{n+}. ';
+		mc-auto-number-class: Emphasis;
+	}
+
+	/*Keeping just in case printed output doesn't work.
+	p.note
+	{
+		mc-auto-number-format: '{b}{color #231f20}Note: {/color}{/b}';
+		background-color: #ffffff;
+		color: #231f20;
+		background-image: none;
+		border-top-left-radius: 0px;
+		border-top-right-radius: 0px;
+		border-bottom-right-radius: 0px;
+		border-bottom-left-radius: 0px;
+		padding-left: 20px;
+		padding-right: 10px;
+		padding-top: 12px;
+		padding-bottom: 12px;
+		border-left-style: solid;
+		border-left-width: 3px;
+		border-left-color: #c0c0c0;
+		border-right-style: none;
+		border-right-width: 1px;
+		border-right-color: #404040;
+		border-top-style: none;
+		border-top-width: 1px;
+		border-top-color: #404040;
+		border-bottom-style: none;
+		border-bottom-width: 1px;
+		border-bottom-color: #404040;
+		margin-left: 22px;
+	}
+	*/
+
+	img.OneHundredPercentThumbnail
+	{
+		max-width: 100%;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 5px;
+		border: 0;
+		margin: 0;
+	}
+
+	img.SeventyFivePercentThumbnail
+	{
+		max-width: 75%;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 5px;
+		border: 0;
+		margin: 0;
+	}
+
+	img.FiftyPercentThumbnail
+	{
+		max-width: 50%;
+		padding-bottom: 0px;
+		padding-left: 0px;
+		padding-right: 0px;
+		padding-top: 5px;
+		border: 0;
+		margin: 0;
+	}
+
+	img.AtaGlance
+	{
+		max-width: 50%;
+		border-style: solid;
+		border-width: .75pt;
+		border-color: #ad9db6;
+		padding: -1px;
+		padding-top: 0px;
+		padding-bottom: 0px;
+		border-top-left-radius: 15px;
+		border-top-right-radius: 15px;
+		border-bottom-right-radius: 15px;
+		border-bottom-left-radius: 15px;
+		margin-top: -2px;
+	}
+
+	img.AtaGlanceCallout
+	{
+		max-width: 46%;
+		max-height: 220px;
+		padding: 0;
+		border: 0;
+		margin-top: -20px;
+		margin-bottom: 0;
+		margin-left: 5px;
+		margin-right: 0;
+	}
+
+	img.RNbubble
+	{
+		border: none;
+		page-break-after: avoid;
+	}
+
+	a:hover
+	{
+		color: #000000;
+	}
+
+	a:active
+	{
+		color: #ff4338;
+	}
+
+	a:link
+	{
+		color: #ff4338;
+	}
+
+	a:focus
+	{
+		color: #ff4338;
+	}
+
+	a:visited
+	{
+		color: #000000;
+	}
+
+	p.figureNoChapter
+	{
+		mc-auto-number-class: Emphasis;
+		mc-auto-number-format: 'CF: Figure {n+}. ';
+	}
+
+	MadCap|xref.xrefQuotes
+	{
+		mc-format: '{quote}{b}{para}{/b}{quote} {pageref}';
+		color: #330a49;
+	}
+
+	ol
+	{
+		list-style-image: none;
+		margin-left: 20px;
+	}
+
+	li
+	{
+		orphans: 2;
+		widows: 2;
+		margin-left: 0px;
+	}
+
+	li.tabletext
+	{
+		orphans: 2;
+		widows: 2;
+		margin-left: 0px;
+	}
+
+	li.tablebulletTop
+	{
+		margin-top: 10px;
+		margin-left: 0px;
+	}
+
+	li.tablebullet
+	{
+		margin-top: 2px;
+		margin-left: 0px;
+	}
+
+	ul
+	{
+		margin-left: 2.1em;
+		list-style-image: url('C:\Project\TechDocs\BG.NEXT\Content\_Resources\Images\General\Bullet.png');
+		padding: 0;
+		list-style-type: none;
+	}
+
+	ul.SecondLevel
+	{
+		margin-left: 2em;
+		list-style-image: url('C:\Project\TechDocs\BG.NEXT\Content\_Resources\Images\General\BulletSecond.png');
+		padding: 0;
+	}
+
+	p.IndexHeading
+	{
+		padding-top: 16px;
+		text-align: left;
+	}
+
+	MadCap|dropDownHotspot
+	{
+		color: #5c3b6d;
+		font-size: 1.2em;
+		font-weight: bold;
+		margin-bottom: 4px;
+		padding-top: 40px;
+		mc-heading-level: 0;
+		mc-disabled: false;
+	}
+
+	MadCap|dropDownHead
+	{
+		mc-disabled: false;
+		padding-top: 10px;
+	}
+
+	MadCap|dropDownBody
+	{
+		border-bottom: solid 1px #ffffff;
+		mc-disabled: false;
+	}
+
+	MadCap|xref.IndexPageNumber
+	{
+		color: #330a49;
+		margin-left: 10px;
+	}
+
+	span.Emphasis
+	{
+		color: #000000;
+	}
+
+	MadCap|xref.welcome
+	{
+		color: #330a49;
+	}
+
+	MadCap|xref
+	{
+		color: #330a49;
+	}
+
+	p.Appendix_h2
+	{
+		color: #330a49;
+	}
+
+	b.smallcaps
+	{
+		font-variant: small-caps;
+		font-weight: bold;
+		font-style: normal;
+		font-size: 9pt;
+	}
+
+	span.path
+	{
+		font-weight: normal;
+		font-style: italic;
+	}
+
+	img.OneHundredPercentRN-icon2
+	{
+		padding: -10px;
+		max-width: 100%;
+	}
+
+	ul.SecondLevelTable
+	{
+		margin-left: 2em;
+		list-style-image: url('C:\Project\TechDocs\BG.Next\Content\_Resources\Images\General\BulletSecond.png');
+		margin-bottom: 0em;
+		padding-bottom: -2;
+	}
+}
+
+@media only screen and (max-width: 1279px)
+{
+	div.NewRowClass1 > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(3)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileDetails > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileDetails > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative > div:nth-child(1)
+	{
+		width: 66.66667%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col > div:nth-child(1)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col > div:nth-child(2)
+	{
+		width: 33.33333%;
+		margin-left: 0%;
+	}
+
+	div.welcome2x2home1 > div:nth-child(1)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.welcome2x2home1 > div:nth-child(2)
+	{
+		width: 50%;
+		margin-left: 0%;
+	}
+
+	div.single > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+@media only screen and (max-width: 767px)
+{
+	div.NewRowClass1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.NewRowClass1 > div:nth-child(3)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileDetails > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileDetails > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: -6%;
+		padding-left: -10%;
+	}
+
+	div.EditProfileNarrative > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.EditProfileNarrative2Col > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.welcome2x2home1 > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.welcome2x2home1 > div:nth-child(2)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+
+	div.single > div:nth-child(1)
+	{
+		width: 100%;
+		margin-left: 0%;
+	}
+}
+
+/* For topic pop-up (new/updated guides in help system): makes
+   the pop-up responsive so it stays on screen at narrow sizes. 
+   Note: using a separate media query because the "mobile" break 
+   point is a little too wide for the current pop-up styling. */
+
+@media (max-width: 640px)
+{
+	div.MCTopicPopupContainer
+	{
+		max-height: 320px;
+		max-width: 100%;
+		min-width: 100%;
+		left: 0 !important;
+		margin-left: 0 !important;
+	}
+}
+
+div.nopagebreak
+{
+	page-break-inside: avoid;
+	page-break-after: avoid;
+}
+
+@media OnlineRN
+{
+	img.OneHundredPercentRN-icon
+	{
+		max-width: 100%;
+	}
+
+	img.OneHundredPercentRN-icon2
+	{
+		
+	}
+}
+
